@@ -26,9 +26,9 @@ export function EditorPremiumSection() {
       >
         <div className="bg-surface rounded-[2.8rem] p-8 md:p-16 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
-            <span className="bg-secondary-container text-on-secondary-container px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase mb-6 inline-block">
+            {/* <span className="bg-secondary-container text-on-secondary-container px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase mb-6 inline-block">
               Free — Included
-            </span>
+            </span> */}
             <h2 className="text-4xl md:text-6xl font-black tracking-tighter mb-8 text-white leading-[1.1]">
               Make your screenshots look like design assets.
             </h2>

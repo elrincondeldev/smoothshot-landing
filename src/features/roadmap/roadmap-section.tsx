@@ -14,34 +14,34 @@ type RoadmapItem = {
 const roadmapItems: RoadmapItem[] = [
   {
     date: "April 2026",
-    title: "v1.0 — Smoothshot is here",
+    title: "v1.0 — SmoothShot is here",
     description:
       "The full toolkit drops: screenshots, screen recording, OCR, free canvas, beautiful backgrounds, and instant sharing to X. Everything you need to capture and ship, nothing you don't.",
     status: "completed",
   },
   {
-    date: "June 2026",
+    date: "May 1/2 2026",
     title: "Scrolling screenshots",
     description:
       "Capture entire pages, long chats, and endless feeds in a single shot. No more stitching screenshots together.",
     status: "upcoming",
   },
   {
-    date: "August 2026",
+    date: "May 2/2 2026",
     title: "Bento grid layouts",
     description:
       "Arrange multiple captures into clean, visual grids. Perfect for changelogs, tutorials, and show-off posts.",
     status: "upcoming",
   },
   {
-    date: "October 2026",
+    date: "June 2026",
     title: "Pin screenshots on screen",
     description:
       "Keep any capture floating on your desktop as a reference. Always visible, always accessible — like sticky notes for your screen.",
     status: "upcoming",
   },
   {
-    date: "December 2026",
+    date: "July 2026",
     title: "Background removal",
     description:
       "Strip the background from any capture with one click. Isolate UI elements, icons, or text — clean cutouts, zero effort.",

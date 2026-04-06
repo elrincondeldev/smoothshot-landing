@@ -6,14 +6,15 @@ const footerSections = [
     title: "Product",
     links: [
       { label: "Download", href: "#" },
-      { label: "Changelog", href: "#" },
+      // { label: "Changelog", href: "#" },
     ],
   },
   {
     title: "Community",
     links: [
-      { label: "Twitter", href: "#" },
-      { label: "GitHub", href: "#" },
+      { label: "Instagram", href: "https://www.instagram.com/elrincondeldev/" },
+      { label: "Tiktok", href: "https://www.tiktok.com/@elrincondeldev" },
+      { label:  "Youtube", href: "https://www.youtube.com/@elrincondeldev" },
     ],
   },
   {
@@ -57,7 +58,7 @@ export function Footer() {
                   <a
                     key={link.label}
                     href={link.href}
-                    className="text-on-surface-variant text-xs uppercase tracking-widest font-semibold hover:text-primary transition-all"
+                    className="text-on-surface-variant cursor-pointer text-xs uppercase tracking-widest font-semibold hover:text-primary transition-all"
                   >
                     {link.label}
                   </a>
